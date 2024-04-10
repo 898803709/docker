@@ -22,7 +22,8 @@ docker-compose run --entrypoint "rails new ."
 docker-compose up
 ```
 
-# production password
+
+## コンテナの中に入る
 ```
-2fc7e59f252a3ac24277b980a95f091f
+docker-compose exec web bash
 ```
